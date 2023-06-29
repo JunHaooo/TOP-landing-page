@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px; 
+}
+
+.top-funnel {
+    display: flex;
+}
+
+.content {
+    padding: 20px;
+}
+
+.programmes {
+    display: flex;
+}
+
+.quote-container {
+    padding: 20px;
+}
+
+.bottom-funnel {
+    display: flex;
+}
+
+.footer {
+    text-align: center;
+}
+
+
