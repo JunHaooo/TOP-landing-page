@@ -10,17 +10,40 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:bisque;
-    padding: 2px 10px;
+    background-color:darkblue;
+    padding: 6px 10px;
+    
+}
+
+.company-name {
+    text-decoration: none;
+    font-size:30px;
+    font-weight: bold;
+    color:white;
+    font-family:monospace;
+
+}
+
+.link {
+    text-decoration: none;
+    font-size: 20px;
+    color:white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .logo-container {
     display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
 }
 
 .logo {
-    width: 70px;
+    width: 130px;
     height: auto;
+    margin-left:2px;
+    margin-right: 2px;;
 }
 
 ul{
@@ -33,6 +56,42 @@ ul{
 
 .top-funnel {
     display: flex;
+    flex-wrap: wrap;
+    background-color:coral;
+    flex-direction: row;
+}
+
+.top-funnel-words {
+    padding: 20px;
+    margin: 20px;
+    width: 80%;
+}
+
+.top-funnel-title {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    color:black;
+}
+
+.top-funnel-content {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    color:rgb(80, 78, 78);
+    margin-bottom: 10px;
+}
+
+.funnel-photo {
+    width: 10%;
+    height: auto;
+    object-fit:contain;
+}
+
+.main-button {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    background-color:cyan;
+    color:beige;
+    border-radius: 10px;
 }
 
 .content {
@@ -53,7 +112,7 @@ ul{
 
 .footer {
     text-align: center;
-    background-color:bisque;
+    background-color:darkblue;
     margin-top: auto;
 }
 
